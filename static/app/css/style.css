@@ -1,0 +1,51 @@
+.tw-btn{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1da1f2;
+    --bs-btn-border-color: #1da1f2;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1a8cd8;
+    --bs-btn-hover-border-color: #1a8cd8;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #1a8cd8;
+    --bs-btn-active-border-color: #1a8cd8;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #FF4D85;
+    --bs-btn-disabled-border-color: #FF4D85;
+  }
+  
+  
+  
+  
+  @media(max-width:576px){
+    .btn-block{
+      max-width: 100% !important;
+    }
+  }
+  
+  
+  @media(min-width:576px){
+    .btn-block{
+      max-width: 400px !important;
+    }
+  }
+  
+  .callout-danger {
+      border-left-color: #d9534f !important;
+      background-color: rgb(248, 215, 218);
+      border-left-color: rgb(241, 174, 181);
+      border-left-style: solid;
+      border-left-width: 4px;
+      color: rgb(88, 21, 28);
+  
+  }
+  .callout {
+      padding: 1.25rem;
+      margin-top: 1.25rem;
+      margin-bottom: 1.25rem;
+      border: 1px solid #e9ecef;
+      border-left-width: 0.25rem;
+      border-radius: 0.25rem
+  
+    }
